@@ -18,7 +18,7 @@
     }
 
     body {
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhcxJj4uy1wF5B-Q_ofmSMTP-o90HtRor7w&s');
+        /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhcxJj4uy1wF5B-Q_ofmSMTP-o90HtRor7w&s'); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -87,7 +87,7 @@
                                             </div>
                                             <button type="submit" class="btn btn-success mb-2">Register</button>
                                             <p class="text-body-secondary">
-                                                Sudah punya akun? <a href="{{ route('login')"
+                                                Sudah punya akun? <a href="/login"
                                                     class="text-reset fw-bold">Login disini</a>
                                             </p>
                                         </div>

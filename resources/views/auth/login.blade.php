@@ -21,7 +21,7 @@
         }
 
         body {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhcxJj4uy1wF5B-Q_ofmSMTP-o90HtRor7w&s');
+            /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhcxJj4uy1wF5B-Q_ofmSMTP-o90HtRor7w&s'); */
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -64,6 +64,10 @@
                                                     me</label>
                                             </div>
                                             <button type="submit" class="btn btn-success">Login</button>
+                                            <p class="text-body-secondary">
+                                                Belum punya akun? <a href="/register"
+                                                    class="text-reset fw-bold">Registrasi disini</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

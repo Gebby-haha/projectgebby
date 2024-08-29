@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BeritaController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\FrontController;
 use App\Http\Controllers\KategoriController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -20,17 +21,22 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+//akses oleh public
+Route::middleware(['web'])->group(function () {
+
+    // Route::get('/', function () {
+    //     return view('welcome');
+    // });
+    Route::get('/', [FrontController::class, 'index'])->name('beranda');
+
 });
 
-// Auth::routes(); // Enable authentication routes
 
-// Route::get('/dashboard', function () {
-//      Route::get('/dashboard',[ DashboardController::class, 'index']);
-
-
-// })->middleware(['auth', 'verified'])->name('dashboard');
+//akses oleh admin
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
