@@ -37,7 +37,7 @@
                         </li>
                     </ul>
                 <li><a href="#contact">Contact</a></li>
-                <ul class="navbar-nav ms-auto">
+                {{-- <ul class="navbar-nav ms-auto">
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
@@ -63,7 +63,7 @@
                             </div>
                         </li>
                     @endguest
-                </ul>
+                </ul> --}}
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
     </div>
