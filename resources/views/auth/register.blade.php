@@ -10,7 +10,7 @@
 </head>
 <style>
     .box {
-        background: pink;
+        background: #ffc0cb;
         border-radius: 10px;
         width: 300px;
         padding: 7px;
@@ -30,9 +30,7 @@
 <body>
     @include('sweetalert::alert')
 
-    {{-- @extends('regis.regis')
-@section('content') --}}
-    <section id="regis" class="regis text-dark">
+    <section id="regis" class="regis text-dark" style="background-color: pink">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -85,7 +83,7 @@
                                                     <option>Wanita</option>
                                                 </select>
                                             </div>
-                                            <button type="submit" class="btn btn-success mb-2">Register</button>
+                                            <button type="submit" class="btn btn-light mb-2">Register</button>
                                             <p class="text-body-secondary">
                                                 Sudah punya akun? <a href="/login"
                                                     class="text-reset fw-bold">Login disini</a>
@@ -101,6 +99,5 @@
         </div>
     </section>
 </body>
-{{-- @endsection --}}
 
 </html>
