@@ -1,5 +1,4 @@
-
-<footer id="footer" class="footer dark-background">
+<footer id="footer" class="footer light-background mt-3">
 
     <div class="container footer-top">
         <div class="row gy-4">
@@ -7,26 +6,26 @@
                 <a href="index.html" class="logo d-flex align-items-center">
                     <span class="sitename">Get connected with us :</span>
                 </a>
-                <p>Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.</p>
+                <p>Portalku adalah sumber berita terpercaya yang menyajikan informasi terkini tentang berbagai topik
+                    termasuk politik, hiburan, olahraga, dan banyak lagi. Kami berkomitmen untuk memberikan berita yang
+                    akurat dan terkini kepada pembaca kami.</p>
                 <div class="social-links d-flex mt-4">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                    <a href=""><i class="bi bi-github"></i></a>
-                    <a href=""><i class="bi bi-google"></i></a>
+                    <a href=""><i class="bi bi-twitter-x" style="color: pink;"></i></a>
+                    <a href=""><i class="bi bi-facebook" style="color: pink;"></i></a>
+                    <a href=""><i class="bi bi-instagram" style="color: pink;"></i></a>
+                    <a href=""><i class="bi bi-linkedin" style="color: pink;"></i></a>
+                    <a href=""><i class="bi bi-github" style="color: pink;"></i></a>
+                    <a href=""><i class="bi bi-google" style="color: pink;"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
                 <h4>Features</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Follow Us</a></li>
-                    <li><a href="#">Help</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Follow Us</a></li>
+                    <li><a href="#contact">Help</a></li>
                 </ul>
             </div>
 
@@ -43,8 +42,8 @@
 
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
-                <p>jalan jsjdbxsdviksd</p>
-                <p>Pasaman Barat, agdkahdv</p>
+                <p>Lingkuang Aua</p>
+                <p>Kabupaten Pasaman Barat</p>
                 <p>Sumatera Barat</p>
                 <p class="mt-4"><span> + 62 822 8567 8157</span></p>
                 <p><span>portalku@gmail.com</span></p>
@@ -54,14 +53,14 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-        <p>© <span>2024 </span><span>Copyright</span> <strong class="px-1 sitename">Portalku.com</strong>
+        <p>© <span>2024 </span><span>Copyright</span> <strong class="px-1 sitename text-dark">Portalku.com</strong>
         </p>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you've purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/" style="color: pink;">BootstrapMade</a>
         </div>
     </div>
 

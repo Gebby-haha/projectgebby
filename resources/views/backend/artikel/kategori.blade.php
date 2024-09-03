@@ -12,15 +12,15 @@
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="namakategori" name="namakategori">
                             </div>
-                            <button type="submit">Submit</button>
+                            <button type="submit" class="btn btn-dark btn-border btn-round mr-2 text-dark" >Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <table class="table">
+                <table class="table table-bordered">
                     <thead>
-                        <tr>
+                        <tr>;
                             <th scope="col">No</th>
                             <th scope="col">Nama kategori</th>
                             <th scope="col">Created_at</th>

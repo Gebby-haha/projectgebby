@@ -29,8 +29,8 @@
                     <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                     <div class="member-info">
                         <div class="member-info-content">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
+                            <h4>Gebby Halmita</h4>
+                            <span></span>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter-x"></i></a>
                                 <a href=""><i class="bi bi-facebook"></i></a>

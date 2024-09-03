@@ -33,7 +33,7 @@ class BeritaController extends Controller
         $berita = new berita();
         $berita->judul_artikel = $request->judul_artikel;
         $berita->isi_artikel = $request->isi_artikel;
-        // $berita->kategori = $request->kategori;
+        $berita->hits = 0;
         $rand = rand(10, 999);
 
         $berita->gambar = $request->gambar;

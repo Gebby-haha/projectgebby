@@ -44,13 +44,14 @@
                                     <option value="tidak_aktif">Tidak Aktif</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-info">Submit</button>
+                            <button type="submit" class="btn btn-dark btn-border btn-round mr-2 text-dark">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <table class="table">
+            <div class="col-md-12 mt-4">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">No</th>
@@ -69,7 +70,7 @@
                             <tr>
                                 <th scope="row">{{ $key + 1 }}</th>
                                 <td>{{ $item->judul_artikel }}</td>
-                                <td>{{ $item->isi_artikel }}</td>
+                                <td>{{ Str::limit($item->isi_artikel, 50, '...') }}</td>
                                 <td>
                                     @if (isset($kategoridataByArticle[$item->id]))
                                         @foreach ($kategoridataByArticle[$item->id] as $kategori)

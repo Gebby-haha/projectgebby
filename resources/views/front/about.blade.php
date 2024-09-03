@@ -24,7 +24,7 @@
                     Terima kasih telah mengunjungi [Nama Perusahaan Anda]. Kami berharap dapat bekerja sama dengan Anda!
                 </p>
 
-                <a href="#contact" class="read-more"><span>Hubungi kami</span><i
+                <a href="#contact" class="read-more" style="background-color: pink" ><span>Hubungi kami</span><i
                         class="bi bi-arrow-right"></i></a>
             </div>
 

@@ -2,9 +2,9 @@
 <section id="contact" class="contact section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <div class="container section-title" data-aos="fade-up" >
+        <h2 >Contact</h2>
+        <p>Sampaikan keluhan anda</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -16,7 +16,7 @@
                 <div class="row gy-4">
                     <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="200">
-                            <i class="bi bi-geo-alt"></i>
+                            <i class="bi bi-geo-alt" style="color: pink;"></i>
                             <h3>Address</h3>
                             <p>askjshks street</p>
                             <p>Sumatera Barat</p>
@@ -25,7 +25,7 @@
 
                     <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="300">
-                            <i class="bi bi-telephone"></i>
+                            <i class="bi bi-telephone" style="color: pink;"></i>
                             <h3>Call Us</h3>
                             <p>+62 8228 5678 157</p>
                         </div>
@@ -33,7 +33,7 @@
 
                     <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="400">
-                            <i class="bi bi-envelope"></i>
+                            <i class="bi bi-envelope" style="color: pink;"></i>
                             <h3>Email Us</h3>
                             <p>portalku@gmail.com</p>
                         </div>
@@ -41,7 +41,7 @@
 
                     <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="500">
-                            <i class="bi bi-clock"></i>
+                            <i class="bi bi-clock" style="color: pink;"></i>
                             <h3>Open Hours</h3>
                             <p>Monday - Friday</p>
                             <p>9:00AM - 05:00PM</p>
@@ -81,7 +81,7 @@
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                            <button type="submit">Send Message</button>
+                            <button type="submit" style="background-color: pink">Send Message</button>
                         </div>
 
                     </div>

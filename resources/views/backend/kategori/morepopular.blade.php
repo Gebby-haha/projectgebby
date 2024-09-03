@@ -9,10 +9,12 @@
         </div><!-- End Section Title -->
 
         <div class="container">
+
             <div class="row gy-4">
+
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card">
-                        <img src="https://akcdn.detik.net.id/community/media/visual/2024/08/14/potret-harvey-moeis-jalani-sidang-perdana-kasus-korupsi-timah-6_169.jpeg?w=700&q=90" class="img-fluid" alt="">
+                        <img src="assets/img/more-service-1.jpg" class="img-fluid" alt="">
                         <h3>Ad cupiditate sed est odio</h3>
                         <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.
                         </p>

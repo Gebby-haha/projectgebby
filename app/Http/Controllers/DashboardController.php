@@ -37,6 +37,10 @@ class DashboardController extends Controller
 
     public function kategori_store(Request $request)
     {
+        $request->validate([
+            'namakategori' => 'required|string|max:255',
+        ]);
+        
         $kategori = $request->namakategori;
         // dd($kategori);
         // return $kategori;
