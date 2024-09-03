@@ -18,7 +18,8 @@
                         <div class="info-item" data-aos="fade" data-aos-delay="200">
                             <i class="bi bi-geo-alt" style="color: pink;"></i>
                             <h3>Address</h3>
-                            <p>askjshks street</p>
+                            <p>Lingkuang Aua</p>
+                            <p>Kabupaten Pasaman Barat</p>
                             <p>Sumatera Barat</p>
                         </div>
                     </div><!-- End Info Item -->

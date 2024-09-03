@@ -13,8 +13,8 @@
             <div class="carousel-item active">
                 <img src="assets/img/jumbotron.jpg" alt="">
                 <div class="carousel-container">
-                    <h2>Welcome to Portalku</h2>
-                    <p class="lead">Sumber terpercaya untuk berita terbaru dan analisis mendalam.</p>
+                    <h2 class="text-center">Welcome to Portalku</h2>
+                    <p class="lead text-center">Sumber terpercaya untuk berita terbaru dan analisis mendalam.</p>
                     <hr class="my-4">
                     <p style="text-align: center">Dari berita utama hingga analisis mendalam, kami menyediakan semua
                         yang Anda butuhkan untuk

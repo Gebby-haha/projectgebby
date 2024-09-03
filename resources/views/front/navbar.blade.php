@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Shuffle Bootstrap Template</title>
+    <title>Index</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -60,6 +60,7 @@
         .navmenu .dropdown-menu {
             background-color: pink;
             border-radius: 10px;
+
         }
 
         .navmenu .dropdown-menu.show {
@@ -74,8 +75,16 @@
             display: none;
         }
 
-        .navmenu li {
+        .navmenu ul {
+            display: flex;
             list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navmenu li {
+            margin: 0;
+            position: relative;
         }
 
         .logo {
@@ -98,8 +107,22 @@
         @media (max-width: 768px) {
             .logo img {
                 width: 40px;
+
+                .navmenu ul {
+                    display: none;
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                .navmenu ul.show {
+                    display: flex;
+                }
+
+                .mobile-nav-toggle {
+                    display: block;
+                }
             }
-        }
+            }
     </style>
 
 </head>
@@ -110,11 +133,13 @@
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             <a href="" class="logo d-flex align-items-center">
-                <img src="{{asset('assets/img/Logo.png')}}" alt="" style="width: 100%; height: 100%;">
+                <img src="{{ asset('assets/img/Logo.png') }}" alt="" style="width: 100%; height: 100%;">
                 <h1 class="sitename">Portalku</h1>
             </a>
 
             <nav id="navmenu" class="navmenu">
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
                 <ul>
                     <li><a href="/" class="active">Home</a></li>
                     <li><a href="{{ url('/') }}#about">About</a></li>
@@ -132,33 +157,6 @@
                         </ul>
 
                     <li><a href="{{ url('/') }}#contact">Contact</a></li>
-                    {{-- <ul class="navbar-nav ms-auto">
-                    @guest
-                        @if (Route::has('login'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                        @endif
-
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }}
-                            </a>
-
-                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                                 document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
-                            </div>
-                        </li>
-                    @endguest
-                </ul> --}}
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
         </div>
