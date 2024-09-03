@@ -63,14 +63,12 @@
     <div class="wrapper">
         <div class="main-header">
             <!-- Logo Header -->
-            <div class="logo-header" style=" background-color: pink !important;">
+            <div class="logo-header" style="background-color: white !important; padding-left: 0;">
 
                 <a href="/" class="logo">
-                    <img src="{{asset('assets/img/Logo.png')}}"  style="margin-left:30px" alt="Portalku" class="navbar-brand">
-
+                    <img src="{{ asset('assets/img/Logo.png') }}" alt="Portalku" class="navbar-brand" style="max-height: 50px; margin-left: 50px;">
                 </a>
-                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
-                    data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <i class="icon-menu"></i>
                     </span>
@@ -85,9 +83,8 @@
             <!-- End Logo Header -->
 
             <!-- Navbar Header -->
-            <nav class="navbar navbar-header navbar-expand-lg" style=" background-color: pink !important">
-
-                <div class= "container-fluid">
+            <nav class="navbar navbar-header navbar-expand-lg" style="background-color: pink !important">
+                <div class="container-fluid">
                     <div class="collapse" id="search-nav">
                         <form class="navbar-left navbar-form nav-search mr-md-3">
                             <div class="input-group">
@@ -95,6 +92,7 @@
                                     <button type="submit" class="btn btn-search pr-1">
                                         <i class="fa fa-search search-icon"></i>
                                     </button>
+
                                 </div>
                                 <input type="text" placeholder="Search ..." class="form-control">
                             </div>
